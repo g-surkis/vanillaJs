@@ -50,8 +50,6 @@ const deleteBtnActions = action => {
   if (action === "remove") deleteBtn.remove();
 };
 
-const update = event => {};
-
 const createEditForm = (object, editableRaw, editFormRaw) => {
   const editForm = createForm(object);
 
